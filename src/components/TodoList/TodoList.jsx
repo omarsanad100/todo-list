@@ -48,6 +48,7 @@ const ToDoList = () => {
           type="text"
           value={inputValue}
           placeholder="Enter a Tasks..."
+          maxLength={30}
           onChange={(e) => setInputValue(e.target.value)}
         />
         <button onClick={handleInput} className={styles.generalBtn}>

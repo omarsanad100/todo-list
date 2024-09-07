@@ -70,3 +70,26 @@ button {
 button:hover {
   background-color: #79f779;
 }
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  input,
+  .generalBtn {
+    width: 100%;
+    max-width: none;
+    height: 35px;
+  }
+
+  ul li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  ul li button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
